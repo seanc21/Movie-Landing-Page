@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #000;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px 100px 30px;
+    z-index: 100;
+}
+
+header .logo img {
+    max-width: 150px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.navigation li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.navigation li:hover a {
+    color: #de0611;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+}
+
+.movieTitle {
+    max-width: 350px;
+    width: 300px;
+}
+
+.banner .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner .content h4 {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 500;
+}
+
+.content {
+    position: relative;
+    /* z-index: 1; */
+    max-width: 550px;
+    top: 110px;
+    color: #fff;
+}
+/* styling for prview */
+.content-bg {
+    position: relative;
+    padding-left: 150px;
+    margin-left: -100px;
+    background: linear-gradient(to right,#131212 0,rgba(23,23,23,.98) 30%,
+    rgba(23,23,23,.97) 35%,rgba(23,23,23,.95) 40%,rgba(23,23,23,.94) 45%,
+    rgba(23,23,23,.92) 50%,rgba(23,23,23,.9) 55%,rgba(23,23,23,.87) 60%,
+    rgba(23,23,23,.82) 65%,rgba(23,23,23,.75) 70%,rgba(23,23,23,.63) 75%,
+    rgba(23,23,23,.45) 80%,rgba(23,23,23,.27) 85%,rgba(23,23,23,.15) 90%,
+    rgba(23,23,23,.08) 95%,rgba(23,23,23,.03) 97%,rgba(23,23,23,0) 100%);
+    /* background: linear-gradient(90deg, blue, pink); */
+}
