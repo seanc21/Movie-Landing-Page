@@ -15,9 +15,9 @@ header {
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 15px 100px 100px 30px;
+    padding: 15px 0 100px 30px;
     z-index: 100;
 }
 
@@ -42,6 +42,24 @@ header .logo img {
 }
 
 .navigation li:hover a {
+    color: #de0611;
+}
+
+.sub-nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 40px 0 40px;
+}
+  
+.sub-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0 10px;
+    letter-spacing: 1px;
+}
+  
+.sub-nav a:hover {
     color: #de0611;
 }
 
